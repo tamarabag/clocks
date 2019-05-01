@@ -1,0 +1,88 @@
+html,
+body {
+  background-color: rgb(240, 240, 240);
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+p {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+#wrapper {
+  width: 100%;
+  align-content: center, center;
+  text-align: center;
+}
+
+.buttons {
+  align-content: center, center;
+  text-align: center;
+}
+
+.myButton {
+  background-color: rgb(221, 130, 130);
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  border-radius: 18px;
+  /*	border:1px solid #ee1eb5;*/
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 10px;
+  padding: 10px 14px;
+  text-decoration: none;
+  /*	text-shadow:0px 1px 0px #c70067;*/
+  margin-left: 30px;
+}
+
+.myButton:hover {
+  background-color: #ef027d;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.qtButton {
+  background-color: rgb(100, 100, 100);
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  /*	border:1px solid #ee1eb5;*/
+  /* display: inline-block; */
+  cursor: pointer;
+  color: #fff;
+  font-family: Georgia;
+  font-size: 22px;
+  /* padding: 10px 14px; */
+  text-decoration: none;
+  /*	text-shadow:0px 1px 0px #c70067;*/
+  margin-right: 15px;
+  float: right;
+}
+.qtButton:hover {
+  background-color: rgb(60, 60, 60);
+}
+
+.qtButton-not {
+  background-color: rgba(100, 100, 100, 0, 6);
+  cursor: default;
+}
+
+.qtText {
+  font-style: italic;
+  color: #000;
+  float: right;
+  font-size: 10px;
+  padding-right: 7px;
+}
